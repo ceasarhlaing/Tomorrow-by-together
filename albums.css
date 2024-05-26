@@ -1,0 +1,96 @@
+* { 
+margin: 0;
+padding: 0;
+box-sizing: border-box; }
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.top-header { 
+background-color: #f7ffef;
+height: auto;
+min-width: 100%; }
+
+header {
+max-width: auto; text-align: center;
+background-color: #e8bcf0;
+color: #0000b8;
+font-size: 150%;
+padding: 30px 30px 30px 150px; 
+font-family: 'Brush Script MT', cursive; }
+h1 { font-size: 300%; }
+
+header nav { 
+display: flex;
+align-items: center;
+justify-content: space-around; 
+padding: 0 100px; }
+
+.logo {
+display: flex;
+align-item: center;
+justify-content: flex-start; }
+
+.logo-img{
+height: 60px;}
+
+nav ul{
+list-style-type: none; }
+
+nav ul li{
+display: inline-block;
+margin: 0 15px; }
+
+nav ul li a {
+text-decoration: none;
+color: #797878;
+font-weight: 600;
+font-size: 18px;
+transition: 0.1s ease-in-out; }
+
+nav ul li a: hover {
+color: #000000; }
+
+.btn {
+background-color: #aeaed4;
+padding: 10px 25px;
+border-radius: 30px;
+color: #000000;
+transition: 0.4s ease-in-out;
+text-decoration: none; }
+
+.btn:hover {
+background-color: #31a25e; }
+
+.copyright {
+height: 5px;
+background-color: #6c88c4;
+padding: 0 50px 50px 0; }
+
+.end {
+text-align: center;
+color: wheat; }
+
+body {
+margin: 0;
+background: gray; }
+
+.container {
+max-width: auto;
+margin:auto;
+background: #f2f2f2;
+overflow: auto; }
+
+.gallery{
+margin: 10px;
+border: 3px solid #ccc;
+float: left;
+width: 205px; }
+
+.gallery img {
+width: 200px; 
+height: 200px; }
+
+.desc {
+padding: 18px;
+text-align: center; }
+
